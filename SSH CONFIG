@@ -1,1 +1,123 @@
-Sijsjsks
+    {
+  "Version": "1.0.1",
+  "ReleaseNotes": "Nova Atualização Disponível",
+  "UrlUpdate": "https://raw.githubusercontent.com/adryandejesusmoraes/config-ssh-ofi/main/SSH%20CONFIG",
+  "Sms": "https://raw.githubusercontent.com/adryandejesusmoraes/config-ssh-ofi/main/Sms%20config",
+  "EmailFeedback": "https://t.me/isinhaoficial",
+  "UrlContato": "https://t.me/isinhaoficial",
+  "UrlTermos": "https://t.me/isinhaoficial",
+  "CheckUser": "true",
+"UdpPort": "7300",
+"UdpPort": "7100",
+"UdpPort": "7200",
+"UdpPort": "7400",
+"UdpPort": "7500",
+"udpPort": "7600",
+  "Servers": [    
+      {
+      "Name": "SERVIDOR BR-1|PREMIUM",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "4gconectavip.ml",
+      "CheckUser": "http://20.226.112.133:5757/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+      },
+    {
+      "Name": "BRASIL BR-2|GRATUITO",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "SER QUISER COLOQUE O SEU AQUI E SO ME MANDA NO TELEGRAM @isinhaoficial",
+      "CheckUser": "393993",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+
+   "Networks": [
+   {
+   "Name": " VIVO [ 𝘽𝙍-1 OFF ]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 4gconectavip.ml[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "j7h4u4xwk1.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+   {
+   "Name": " VIVO [ 𝘽𝙍-2 OFF ]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 4gconectavip.ml[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+   {
+      "Name": " TIM [ 𝘽𝙍-1 ] ON ]🇧🇷",
+      "FLAG": "tim",
+      "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: 4gconectavip.ml[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "texugo.alura.com.br",
+      "TlsIP": "104.21.84.78",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+ },
+  {
+      "Name": " TIM [ 𝘽𝙍-2 ] ON ]🇧🇷",
+      "FLAG": "tim",
+      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: 4gconectavip.ml[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "TlsIP": "bam.nr-data.net",
+      "ProxyIP": "bam.nr-data.net",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+ {
+      "Name": " TIM [ 𝘽𝙍-3 ] ON ]🇧🇷",
+      "FLAG": "tim",
+      "Payload": "GET wss://blog.alura.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "blog.alura.com.br",
+      "TlsIP": "104.21.84.78",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+       },
+  {
+   "Name": "  CLARO [ 𝘽𝙍-1 ] ON ]🇧🇷",
+   "FLAG": "claro",
+   "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "172.67.188.168",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+ {
+      "Name": " CLARO [ 𝘽𝙍-2 ] ON ]🇧🇷",
+      "FLAG": "claro",
+      "Payload": "GET wss://bobcontents.bennuapp.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "bobcontents.bennuapp.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+     {      
+     
+      "Name": " OI [ 𝘽𝙍-1] ON ]🇧🇷",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.51.91",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }
+  ]
+}
